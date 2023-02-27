@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    druid:
+      db-type: com.alibaba.druid.pool.DruidDataSource
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      url: jdbc:oracle:thin:@100.194.0.139:1521:orcl
+      username: scms
+      password: scms123
+      initial-size: 2
+      min-idle: 1
+      max-active: 20
+      max-wait: 60000
+
+# 自定义配置，本地路径，经修改，目前暂时用不到
+local:
+  path: E:\工作文档\A-人员合规系统\第4期需求\单机版征信\credit\广州市征信报告
